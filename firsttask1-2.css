@@ -37,7 +37,7 @@ span {
   width: 280px;
   height: 150px;
   background-image: url(img/flow01.png);
-  /*横方向へのの引き延ばし、足りないですか？*/
+  /*横方向へのの引き延ばし、足りないですか...？*/
   background-size: contain;
   margin: 10px 10px 15px 10px;
 }
@@ -76,8 +76,6 @@ span {
 }
 
 .section-title {
-  /*letter-spacingかけても構いませんか？*/
- letter-spacing: 2px;
  margin-bottom: 5px;
 }
 
@@ -85,5 +83,25 @@ footer {
   width: 100%;
   height: 50px;
   background-color: #AAA;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  body {
+    width: 100%;
+  }
+
+  .container {
+    width: 90%;
+    display: block;
+  }
+
+
+  .contents2 {
+    margin: 20px 0;
+  }
+
 
 }
